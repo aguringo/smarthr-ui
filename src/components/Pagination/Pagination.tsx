@@ -113,6 +113,8 @@ export const Pagination: VFC<Props & ElementProps> = ({
 
 const Wrapper = styled.nav`
   display: inline-block;
+  max-width: 100%;
+  overflow-x: auto;
 `
 const List = styled.ul<{ themes: Theme }>`
   ${({ themes: { spacingByChar } }) => {
