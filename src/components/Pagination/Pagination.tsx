@@ -115,6 +115,7 @@ const Wrapper = styled.nav`
   display: inline-block;
   max-width: 100%;
   overflow-x: auto;
+  vertical-align: top;
 `
 const List = styled.ul<{ themes: Theme }>`
   ${({ themes: { spacingByChar } }) => {
